@@ -1,0 +1,11 @@
+.carousel{
+max-width: 75% ;
+margin: auto;
+}
+
+
+.img-carousel {
+  height: 400px;
+  width: 100%;
+}
+

@@ -1,0 +1,17 @@
+.mat-toolbar {
+  min-height: 100px;
+}
+
+.fill-remaining-space {
+  /*This fills the remaining space, by using flexbox.
+ Every toolbar row uses a flexbox row layout. */
+ flex: 1 1 auto;
+}
+
+.text-center{
+  text-align: center;
+  font-family: 'Calligraffitti', cursive;
+  font-weight: bold;
+  font-size: 150%;
+  padding-left: 8%;
+}

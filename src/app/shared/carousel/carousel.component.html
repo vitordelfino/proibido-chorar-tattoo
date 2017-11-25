@@ -1,0 +1,19 @@
+  <ngb-carousel class="carousel">
+    <ng-template ngbSlide *ngFor="let img of imagens;" [id]="img.id">
+      <img class="img-carousel" [src]="img.url" [alt]="img.descricao" >
+    </ng-template>
+  </ngb-carousel>
+
+<!-- <ngb-carousel class="carousel">
+  <ng-template ngbSlide>
+    <img class="img-carousel" src="https://www.freetheessence.com.br/lib/uploads/2016/08/tatuagem.jpg" alt="img.descricao">
+  </ng-template>
+
+  <ng-template ngbSlide *ngFor="let img of imagens">
+    <img class="img-carousel" src="https://www.freetheessence.com.br/lib/uploads/2016/08/tatuagem.jpg" alt="img.descricao">
+  </ng-template>
+
+  <ng-template ngbSlide *ngFor="let img of imagens">
+    <img class="img-carousel" src="https://www.freetheessence.com.br/lib/uploads/2016/08/tatuagem.jpg" alt="img.descricao">
+  </ng-template>
+</ngb-carousel> -->
